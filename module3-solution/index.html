@@ -15,38 +15,70 @@
     <title>Module 3 &mdash; Solution</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
   </head>
 <body>
 
   <header>
 
-    <nav class="navbar navbar-default" id="header-nav">
+    <nav class="navbar navbar-inverse">
       <div class="container-fluid">
         <div class="navbar-header">
-
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                  data-target="#bs-example-navbar-collapse-1" aria-expanded="false"
-          >
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-
-          <div class="navbar-brand">
-            <a href="index.html" class="title-link">
-              <h1 class="nav-bar-title">Food, LLC</h1>
-            </a>
-          </div>
+          <a class="navbar-brand" href="#">
+            <h1>
+              Food, LLC
+            </h1>
+          </a>
+        </div>
+        <div class="collapse navbar-collapse ocultar" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li><a href="#" class="text-center">Chicken</a></li>
+            <li><a href="#" class="text-center">Beef</a></li>
+            <li><a href="#" class="text-center">Sushi</a></li>
+          </ul>
         </div>
       </div>
     </nav>
 
   </header>
 
+  <h1 class="text-center" id="menu-title">
+    Our Menu
+  </h1>
+
+  <div class="container-fluid">
+    <div class="d-flex justify-content-center">
+      <div class="col-lg-12 col-md-8 col-sm-8">
+
+        <div class="card" style="background-color: #BDBDBD;">
+          <div class="card-body">
+            <h3 class="card-title text-center"
+                style="font-weight: bold; padding: 10px;">
+              Chicken
+            </h3>
+            <p class="card-text text-justify" style="padding: 10px;">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Risus pretium quam vulputate dignissim suspendisse in est. Orci sagittis eu volutpat odio facilisis. Volutpat maecenas volutpat blandit aliquam etiam. Eu scelerisque felis imperdiet proin fermentum leo. Fermentum leo vel orci porta non pulvinar neque laoreet. Elementum eu facilisis sed odio morbi quis commodo odio aenean. Sed cras ornare arcu dui vivamus arcu felis. Proin fermentum leo vel orci porta non pulvinar neque laoreet. Scelerisque varius morbi enim nunc faucibus a pellentesque sit. In nibh mauris cursus mattis molestie a. Elementum pulvinar etiam non quam lacus. Sit amet nulla facilisi morbi tempus iaculis urna id volutpat.
+
+              Odio ut sem nulla pharetra diam sit amet nisl. Varius duis at consectetur lorem donec massa. Ac ut consequat semper viverra nam libero justo. Risus quis varius quam quisque id. Id eu nisl nunc mi ipsum faucibus vitae aliquet. Ipsum dolor sit amet consectetur adipiscing elit. Volutpat ac tincidunt vitae semper quis lectus nulla at. Augue lacus viverra vitae congue eu consequat ac felis. Dictum varius duis at consectetur lorem donec massa. Ultricies integer quis auctor elit. In nibh mauris cursus mattis molestie a iaculis. Nunc mattis enim ut tellus elementum sagittis vitae. Sed arcu non odio euismod lacinia. At tellus at urna condimentum mattis.
+
+             </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
   <script src="js/jquery-1.11.3.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/script.js"></script>
+
+
 </body>
 </html>
